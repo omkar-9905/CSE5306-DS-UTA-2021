@@ -1,0 +1,9 @@
+The basic idea is to sync directory listing for both A as well as B
+Consideration is both server_a and server_b are running on different machines. 
+But for simplicity coded in such a way that you need to run all code on same machine.
+Involves client-server socket connection.
+
+- Run server_b.py
+- Run server_a.py
+  This should make connection with server_b which was already running.
+-run lab_1.py
